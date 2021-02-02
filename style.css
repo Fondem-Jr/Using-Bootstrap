@@ -7,6 +7,7 @@ html {
 body {
   background-color: #f4f5f6;
 }
+
 *,
 *::before,
 *::after {
@@ -18,8 +19,8 @@ body {
   background-color: red;
 }
 
-.float-c{
-  transform: translate(-50%,0);
+.float-c {
+  transform: translate(-50%, 0);
   position: absolute;
   z-index: 3;
   top: 0;
@@ -36,7 +37,7 @@ body {
   padding-right: 15px;
 }
 
-.container-fluid, .container {
+.container-fluid .container {
   max-width: 1310px;
   margin-right: auto;
   margin-left: auto;
@@ -101,16 +102,16 @@ li {
   fill: rgb(247, 34, 16);
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-.page-nav{
+.page-nav {
   border-width: 50px;
   border-right: salmon solid 2px;
 }
 
-ul>.nav>li>.nav-item>a {
+ul > .nav li > .nav-item > a {
   border: salmon solid 2px;
 }
