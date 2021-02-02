@@ -115,3 +115,138 @@ a {
 ul > .nav li > .nav-item > a {
   border: salmon solid 2px;
 }
+
+@media (min-width: 1050px) {
+  .page-header .pelcro-subscribe-button {
+    margin-right: 14px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-header .pelcro-login-button .page-header .pelcro-subscribe-button {
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}
+
+.page-header .pelcro-subscribe-button {
+  background-color: #ffe400;
+  color: black;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header .pelcro-login-button .page-header .pelcro-subscribe-button {
+  font: bold 13px/24px "Roboto Condensed", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 24px;
+}
+
+@media (min-width: 768px) {
+  .page-header .pelcro-subscribe-button::after {
+    margin-left: 5px;
+    width: 6px;
+    height: 6px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+  }
+}
+
+.page-header .pelcro-subscribe-button::after {
+  content: "";
+  display: inline-block;
+  margin-left: 3px;
+  width: 4px;
+  height: 4px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+@media screen and (min-width: 992px) {
+  .page-header .float-c svg {
+    fill: white;
+  }
+}
+
+.page-header .float-c svg {
+  fill: white;
+  display: block;
+  width: 132px;
+  height: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .page-header .brand svg {
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-header .header-bottom {
+    padding-right: 160px;
+  }
+}
+
+.header-bottom {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  z-index: 1;
+}
+
+.page-header .header-bottom {
+  background-color: white;
+  border-bottom-color: #f4f5f6;
+}
+
+@media screen and (min-width: 992px) {
+  .header-bottom {
+    position: relative;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-header .header-bottom::before {
+    width: 66px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-header .header-bottom::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 22px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+}
+
+.page-header .header-bottom::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
