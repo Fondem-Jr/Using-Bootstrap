@@ -105,3 +105,12 @@ a{
   text-decoration: none;
   color: black;
 }
+
+.page-nav{
+  border-width: 50px;
+  border-right: salmon solid 2px;
+}
+
+ul>.nav>li>.nav-item>a {
+  border: salmon solid 2px;
+}
